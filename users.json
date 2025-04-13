@@ -1,9 +1,47 @@
-{
-    "name": "Tushar Imran Al Manun",
-    "age": "23",
-    "skills": [
-        "PHP",
-        "Express",
-        "Nuxt"
-    ]
-}
+[
+    {
+      "id": 1,
+      "name": "Tushar",
+      "email": "tushar@example.com",
+      "role": "admin",
+      "skills": ["PHP", "Laravel", "Vue"],
+      "projects": [
+        { "title": "E-commerce", "status": "completed" },
+        { "title": "Portfolio", "status": "in-progress" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rafi",
+      "email": "rafi@example.com",
+      "role": "developer",
+      "skills": ["PHP", "React", "Node.js"],
+      "projects": [
+        { "title": "CMS", "status": "completed" },
+        { "title": "CRM", "status": "in-progress" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sadia",
+      "email": "sadia@example.com",
+      "role": "developer",
+      "skills": ["Laravel", "Vue", "Tailwind"],
+      "projects": [
+        { "title": "E-commerce", "status": "completed" },
+        { "title": "ERP", "status": "completed" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nayeem",
+      "email": "nayeem@example.com",
+      "role": "designer",
+      "skills": ["Figma", "Illustrator", "Photoshop"],
+      "projects": [
+        { "title": "Branding", "status": "in-progress" },
+        { "title": "UI Kit", "status": "completed" }
+      ]
+    }
+  ]
+  

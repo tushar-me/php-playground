@@ -1,15 +1,9 @@
 <?php
-$data = [
-    'name' => 'Tushar',
-    'age' => '23',
-    'skills' => ['PHP','Express','Nuxt']
-];
+$users = json_decode(file_get_contents('users.json'), true);
 
-file_put_contents('users.json', json_encode($data, JSON_PRETTY_PRINT));
+// filtert all developers
+$developer = array_filter($users, fn($user) => $user['role'] === 'developer');
 
-$data = json_decode(file_get_contents('users.json'), true);
+print_r($developer);
 
-$data['name'] = "Tushar Imran Al Manun";
-
-file_put_contents('users.json', json_encode($data, JSON_PRETTY_PRINT));
 
